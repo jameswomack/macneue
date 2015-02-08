@@ -1,12 +1,7 @@
 #!/bin/zsh
 
-ecco(){
-  echo "Installing $1"
-}
+source ./install.zsh
 
-install-alcatraz(){
-  ecco "Alcatraz"
-  curl -fsSL https://raw.github.com/supermarin/Alcatraz/master/Scripts/install.sh | sh
-}
+echo "Welcome to Mac Neue. Let's run.\n\n\n\n"
 
 install-alcatraz
