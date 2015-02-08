@@ -2,6 +2,8 @@
 
 source ./install.zsh
 
-echo "Welcome to Mac Neue. Let's run.\n\n\n\n"
+echo "Welcome to Mac Neue. Let's run.\n"
 
-install-alcatraz
+exec-line-stream match-funk "neue\-install"
+
+echo "We've reached the finish line.\n"
