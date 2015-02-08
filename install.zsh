@@ -11,3 +11,8 @@ neue-install-alcatraz(){
   ecco "Alcatraz"
   curl -fsSL https://raw.github.com/supermarin/Alcatraz/master/Scripts/install.sh | sh
 }
+
+neue-install-pods(){
+  ecco "Cocoapods"
+  sudo gem install cocoapods
+}
